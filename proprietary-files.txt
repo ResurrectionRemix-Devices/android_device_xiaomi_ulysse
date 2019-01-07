@@ -57,6 +57,7 @@ vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|bf2bec4b1934f7f006ee40359b6186855b4
 vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|49d26f0e6530f3f60dbaaa800378c1e57863965c
 
 # Camera - from ugg/ugglite 7.1.2 N2G47H V10.2.1.0.NDKMIXM
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/bin/mm-qcamera-daemon
 # Merged from ugg/ugglite manually
 vendor/etc/camera/camera_config.xml|105f8908917db135cdeb2c2b0285a0f7ac9fea5d
@@ -123,11 +124,16 @@ vendor/etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix_india.xml
 vendor/etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix.xml
 vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera2_is.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib64/libmmcamera2_q3a_core.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib64/libmmcamera2_stats_algorithm.so
 vendor/lib64/libmmcamera_cac3_lib.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib64/libmmcamera_dbg.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib64/libmmcamera_tintless_algo.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 # Replace libgui to libwui
 vendor/lib64/libmmsw_detail_enhancement.so
@@ -1760,28 +1766,39 @@ vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libllvd_smore.so
 vendor/lib/libmmcamera2_c2d_module.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera2_cpp_module.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera2_dcrf.so
 vendor/lib/libmmcamera2_frame_algorithm.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera2_iface_modules.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera2_imglib_modules.so
 vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libmmcamera2_is.so
 vendor/lib/libmmcamera2_mct_shimlayer.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera2_mct.so
 vendor/lib/libmmcamera2_pp_buf_mgr.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera2_pproc_modules.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera2_q3a_core.so
 # Hex-edited to make it load xmls from vendor partition
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera2_sensor_modules.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera2_stats_algorithm.so
 # Replace libgui to libwui
 # Load shim libandroid blob
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
 vendor/lib/libmmcamera_cac3_lib.so
 vendor/lib/libmmcamera_chromaflash_lib.so
 vendor/lib/libmmcamera_csidtg.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_dcrf_lib.so
 vendor/lib/libmmcamera_dummyalgo.so
@@ -1793,6 +1810,7 @@ vendor/lib/libmmcamera_facedetection_lib.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera_imx214.so
 vendor/lib/libmmcamera_imx230.so
@@ -1873,7 +1891,9 @@ vendor/lib/libmmcamera_ov8856.so
 vendor/lib/libmmcamera_ov8858.so
 vendor/lib/libmmcamera_ov8865.so
 vendor/lib/libmmcamera_paaf_lib.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera_pdafcamif.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera_pdaf.so
 vendor/lib/libmmcamera_ppbase_module.so
 # Replace libgui to libwui
@@ -1922,12 +1942,15 @@ vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so
 vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so
 vendor/lib/libmmcamera_sw2d_lib.so
 vendor/lib/libmmcamera_thread_services.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera_tintless_algo.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_truly_cma481_eeprom.so
 vendor/lib/libmmcamera_truly_cmb433_eeprom.so
 vendor/lib/libmmcamera_tuning_lookup.so
+# Hex edit camera blobs to use /data/vendor/qcam
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_ubifocus_lib.so
 vendor/lib/libmmjpeg.so

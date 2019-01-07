@@ -44,6 +44,8 @@ on boot
     chown system system /sys/devices/platform/soc/soc:fpc1020/fingerdown_wait
     chmod 0660 /sys/devices/platform/soc/soc:fpc1020/fingerdown_wait
 
+on post-fs-data
+    mkdir /data/vendor/qcam 0770 camera camera
 
 on property:sys.fp.vendor=goodix
    setprop ro.boot.fpsensor goodix
