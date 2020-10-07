@@ -20,6 +20,9 @@ TARGET_KERNEL_VERSION := 3.18
 
 DEVICE_PATH := device/xiaomi/ulysse
 
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := ulysse,ugglite,ugg
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
