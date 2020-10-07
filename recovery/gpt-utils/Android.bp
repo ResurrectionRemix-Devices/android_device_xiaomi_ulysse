@@ -16,7 +16,7 @@
 
 
 cc_library {
-    name: "libgptutils.tissot",
+    name: "libgptutils.ulysse",
     vendor: true,
     recovery_available: true,
     shared_libs: [

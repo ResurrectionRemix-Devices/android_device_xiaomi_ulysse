@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/xiaomi/tissot/tissot-vendor.mk)
+$(call inherit-product, vendor/xiaomi/ulysse/ulysse-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Overlay
@@ -25,8 +25,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage/lineage-sdk \
     $(LOCAL_PATH)/overlay/packages/apps/Snap
 
-# Inherit from msm8953-common
-$(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
+# Inherit from msm8937-common
+$(call inherit-product, device/xiaomi/msm8937-common/msm8937.mk)
 
 # A/B
 AB_OTA_UPDATER := true
@@ -47,12 +47,12 @@ PRODUCT_PACKAGES += \
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
-    bootctrl.msm8953.recovery
+    bootctrl.msm8937.recovery
 
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service \
-    bootctrl.msm8953 \
+    bootctrl.msm8937 \
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8953 \
+    camera.msm8937 \
     libmm-qcamera
 
 # ConsumerIr
@@ -73,14 +73,14 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service
 
 # Properties
--include device/xiaomi/tissot/prop.mk
+-include device/xiaomi/ulysse/prop.mk
 
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.goodix.sh \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
-    init.tissot.rc
+    init.ulysse.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \
