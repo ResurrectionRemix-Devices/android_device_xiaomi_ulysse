@@ -46,7 +46,7 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 536870912
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
+TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
