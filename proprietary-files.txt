@@ -1987,7 +1987,7 @@ vendor/lib64/hw/gf_fingerprint.default.so
 vendor/lib64/libgf_algo.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
-vendor/lib64/libgoodixfingerprintd_binder.so
+vendor/lib64/libgoodixfingerprintd_binder.so|9e63f543d6243761361414eda0c254de71500f5b
 vendor/lib64/libsoftkeymaster.so
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
@@ -2000,8 +2000,8 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Fingerprint - FPC - from ugg 7.1.2 N2G47H V10.2.1.0.NDKMIXM
 vendor/lib64/hw/fingerprint.default.so
-vendor/lib64/lib_fpc_tac_shared.so
-vendor/lib/lib_fpc_tac_shared.so
+vendor/lib64/lib_fpc_tac_shared.so|14ea35b34613f671ac3767d77a681b5f3665d85d
+vendor/lib/lib_fpc_tac_shared.so|1e0cd2b9d5c70feef91f67df0aa66b1604063f21
 
 # QC RIL - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
 vendor/bin/hw/qcrild|c0db5589a45874c31c0bb7e8a7151511505c1e04
