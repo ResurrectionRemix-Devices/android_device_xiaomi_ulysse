@@ -54,5 +54,11 @@ VENDOR_SECURITY_PATCH := 2020-05-05
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Treble
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+BOARD_VNDK_VERSION := current
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+PRODUCT_VENDOR_MOVE_ENABLED := true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/ulysse/BoardConfigVendor.mk
