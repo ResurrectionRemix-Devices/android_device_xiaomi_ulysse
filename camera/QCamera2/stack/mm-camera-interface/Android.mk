@@ -35,6 +35,10 @@ ifneq (,$(filter msm8996 msmcobalt msmfalcon,$(TARGET_BOARD_PLATFORM)))
     LOCAL_CFLAGS += -DUBWC_PRESENT
 endif
 
+ifeq ($(TARGET_KERNEL_VERSION),4.9)
+    LOCAL_CFLAGS += -DUSE_LEGACY_MSM_CAM_HEADERS
+endif
+
 LOCAL_CFLAGS += -D_ANDROID_ -DQCAMERA_REDEFINE_LOG
 LOCAL_COPY_HEADERS_TO := mm-camera-interface
 LOCAL_COPY_HEADERS += ../common/cam_intf.h

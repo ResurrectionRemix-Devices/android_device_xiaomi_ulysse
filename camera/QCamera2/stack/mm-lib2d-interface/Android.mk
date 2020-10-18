@@ -25,6 +25,9 @@ ifeq ($(strip $(TARGET_USES_ION)),true)
     LOCAL_CFLAGS += -DUSE_ION
 endif
 
+ifeq ($(TARGET_KERNEL_VERSION),4.9)
+    LOCAL_CFLAGS += -DUSE_LEGACY_MSM_CAM_HEADERS
+endif
 
 LOCAL_SRC_FILES := \
     src/mm_lib2d.c

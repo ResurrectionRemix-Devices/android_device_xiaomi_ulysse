@@ -117,6 +117,10 @@ ifneq (,$(filter msm8996 msmcobalt msmfalcon,$(TARGET_BOARD_PLATFORM)))
     LOCAL_CFLAGS += -DUBWC_PRESENT
 endif
 
+ifeq ($(TARGET_KERNEL_VERSION),4.9)
+    LOCAL_CFLAGS += -DUSE_LEGACY_MSM_CAM_HEADERS
+endif
+
 #LOCAL_STATIC_LIBRARIES := libqcamera2_util
 LOCAL_C_INCLUDES += \
         $(TARGET_OUT_HEADERS)/qcom/display

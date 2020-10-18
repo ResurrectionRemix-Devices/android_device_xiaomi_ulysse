@@ -31,7 +31,11 @@
 #define __MM_CAMERA_INTERFACE_H__
 
 // System dependencies
+#ifdef USE_LEGACY_MSM_CAM_HEADERS
 #include <media/msmb_camera-legacy.h>
+#else
+#include <media/msmb_camera.h>
+#endif
 
 // Camera dependencies
 #include "cam_intf.h"

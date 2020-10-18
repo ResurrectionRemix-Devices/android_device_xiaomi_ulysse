@@ -36,7 +36,11 @@
 #include <fcntl.h>
 #include <stdlib.h>
 #include <linux/media.h>
+#ifdef USE_LEGACY_MSM_CAM_HEADERS
 #include <media/msm_cam_sensor-legacy.h>
+#else
+#include <media/msm_cam_sensor.h>
+#endif
 #include <dlfcn.h>
 
 #define IOCTL_H <SYSTEM_HEADER_PREFIX/ioctl.h>

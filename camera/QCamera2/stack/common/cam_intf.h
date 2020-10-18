@@ -32,7 +32,11 @@
 
 // System dependencies
 #include <string.h>
+#ifdef USE_LEGACY_MSM_CAM_HEADERS
 #include <media/msmb_isp-legacy.h>
+#else
+#include <media/msmb_isp.h>
+#endif
 
 // Camera dependencies
 #include "cam_types.h"
