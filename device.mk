@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    init.fingerprint.sh \
     init.goodix.sh \
     init.ulysse.rc
 

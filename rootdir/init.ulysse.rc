@@ -70,6 +70,14 @@ service goodix_script /vendor/bin/init.goodix.sh
     user system
     oneshot
 
-on property:ro.product.device=ugglite
+service vendor.fp_script /vendor/bin/init.fingerprint.sh
+    class main
+    user root
+    oneshot
+
+on property:ro.has_fp=0
     mount none /vendor/etc/permissions/blank.xml /vendor/etc/permissions/android.hardware.fingerprint.xml bind
     stop vendor.fps_hal
+
+on property:ro.has_fp=1
+    start vendor.fps_hal
