@@ -23,6 +23,12 @@ DEVICE_PATH := device/xiaomi/ulysse
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+ifeq ($(TARGET_KERNEL_VERSION),3.18)
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest-l2.xml
+else ifeq ($(TARGET_KERNEL_VERSION),4.9)
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest-l3.xml
+endif
+
 # Kernel
 TARGET_KERNEL_CONFIG := ulysse_defconfig
 
