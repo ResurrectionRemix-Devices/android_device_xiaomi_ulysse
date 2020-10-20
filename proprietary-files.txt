@@ -2003,13 +2003,6 @@ vendor/lib64/hw/fingerprint.default.so
 vendor/lib64/lib_fpc_tac_shared.so|14ea35b34613f671ac3767d77a681b5f3665d85d
 vendor/lib/lib_fpc_tac_shared.so|1e0cd2b9d5c70feef91f67df0aa66b1604063f21
 
-# QC RIL - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
-vendor/bin/hw/qcrild|c0db5589a45874c31c0bb7e8a7151511505c1e04
-vendor/etc/init/qcrild.rc|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060
-vendor/lib64/libqcrilFramework.so|3d8f25d13533f6fa45a36b23feb250291b663370
-vendor/lib64/libril-qc-hal-qmi.so|9f58de2abe6a3d67a341692c5870929a66f0b8b2
-vendor/lib64/qcrild_librilutils.so|c23470619690a34f7442fb6b26345de5dc4de880
-
 # VNDK - from latest system
 lib/libbinder.so:vendor/lib/vndk/libbinder.so
 lib/libcutils.so:vendor/lib/vndk-sp/libcutils.so

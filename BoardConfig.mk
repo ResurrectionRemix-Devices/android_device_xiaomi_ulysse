@@ -45,9 +45,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
 
-# RIL
-ENABLE_VENDOR_RIL_SERVICE := true
-
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2020-05-05
 
