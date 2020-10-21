@@ -8,7 +8,8 @@ ro.vendor.audio.sdk.fluencetype=fluence
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.camera.HAL3.enabled=1 \
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap \
+vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android \
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.motorola.faceunlock,com.android.camera \
 persist.camera.dual.camera=0
 
 # Fingerprint
