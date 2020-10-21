@@ -31,7 +31,7 @@ endif
 
 # Kernel
 TARGET_KERNEL_CONFIG := ulysse_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/ulysse
+TARGET_KERNEL_SOURCE := kernel/xiaomi/ulysse-$(TARGET_KERNEL_VERSION)
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
