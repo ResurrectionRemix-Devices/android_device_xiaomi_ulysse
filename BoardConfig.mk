@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_KERNEL_VERSION := 4.9
+TARGET_KERNEL_VERSION := 3.18
 
 # Inherit from common msm8937-common
 -include device/xiaomi/msm8937-common/BoardConfigCommon.mk
