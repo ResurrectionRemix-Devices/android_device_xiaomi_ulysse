@@ -7,6 +7,7 @@ ro.vendor.audio.sdk.fluencetype=fluence
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.camera.HAL3.enabled=1 \
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap \
 persist.camera.dual.camera=0
 
