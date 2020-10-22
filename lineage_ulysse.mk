@@ -29,7 +29,7 @@ PRODUCT_DEVICE := ulysse
 PRODUCT_NAME := lineage_ulysse
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 5A
+PRODUCT_MODEL := Redmi Note 5A / Y1
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
