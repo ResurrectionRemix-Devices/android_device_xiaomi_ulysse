@@ -18,6 +18,9 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-rr
+
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/ulysse/device.mk)
 
@@ -44,3 +47,4 @@ BUILD_FINGERPRINT := "xiaomi/ugg/ugg:7.1.2/N2G47H/V9.5.8.0.NDKMIFA:user/release-
 # ResurrectionRemix specific flags
 BUILD_RR_WALLPAPERS := true
 TARGET_BOOT_ANIMATION_RES := 720
+RR_BUILDTYPE := Official
