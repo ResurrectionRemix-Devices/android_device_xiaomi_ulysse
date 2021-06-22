@@ -47,9 +47,9 @@ static int g_omxcore_cnt = 0;
 //Map the library name with the component name
 static const comp_info_t g_comp_info[] =
 {
-  { "OMX.qcom.image.jpeg.encoder", "libqomx_jpegenc.so" },
-  { "OMX.qcom.image.jpeg.decoder", "libqomx_jpegdec.so" },
-  { "OMX.qcom.image.jpeg.encoder_pipeline", "libqomx_jpegenc_pipe.so" }
+  { "OMX.qcom.image.jpeg.encoder", "libUCmx_jpegenc.so" },
+  { "OMX.qcom.image.jpeg.decoder", "libUCmx_jpegdec.so" },
+  { "OMX.qcom.image.jpeg.encoder_pipeline", "libUCmx_jpegenc_pipe.so" }
 };
 
 static int get_idx_from_handle(OMX_IN OMX_HANDLETYPE *ahComp, int *acompIndex,

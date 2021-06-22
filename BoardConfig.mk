@@ -21,7 +21,7 @@ TARGET_KERNEL_VERSION := 3.18
 DEVICE_PATH := device/xiaomi/ulysse
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := ulysse,ugglite,ugg
+TARGET_OTA_ASSERT_DEVICE := ulysse,ugglite,ugg,mi8937
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
@@ -46,7 +46,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
 
 # Security Patch Level
-VENDOR_SECURITY_PATCH := 2020-05-05
+VENDOR_SECURITY_PATCH := 2018-04-01
 
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy

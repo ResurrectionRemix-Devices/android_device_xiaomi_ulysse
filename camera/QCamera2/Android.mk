@@ -71,13 +71,10 @@ endif
 ifeq ($(call is-platform-sdk-version-at-least,26),true)
 USE_DISPLAY_SERVICE := true
 LOCAL_CFLAGS += -DUSE_DISPLAY_SERVICE
-LOCAL_CFLAGS += -std=c++11 -std=gnu++1y
-else
-LOCAL_CFLAGS += -std=c++11 -std=gnu++0x
 endif
 
 #HAL 1.0 Flags
-LOCAL_CFLAGS += -DDEFAULT_DENOISE_MODE_ON -DHAL3 -DQCAMERA_REDEFINE_LOG
+LOCAL_CFLAGS += -DHAL3 -DQCAMERA_REDEFINE_LOG
 
 LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/../mm-image-codec/qexif \
