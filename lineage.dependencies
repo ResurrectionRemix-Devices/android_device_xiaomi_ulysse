@@ -2,9 +2,5 @@
   {
     "repository": "android_device_xiaomi_msm8937-common",
     "target_path": "device/xiaomi/msm8937-common"
-  },
-  {
-    "repository": "android_kernel_xiaomi_ulysse-3.18",
-    "target_path": "kernel/xiaomi/ulysse-3.18"
   }
 ]
